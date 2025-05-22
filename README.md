@@ -83,7 +83,7 @@ testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
 module.exports = createJestConfig(customJestConfig);
 ```
 
-## jest.setup.ts or jest.setup.js
+jest.setup.ts or jest.setup.js
 
 ```bash
 import 'jest-environment-jsdom';
@@ -98,7 +98,7 @@ presets: ['next/babel'],
 
 You can now write your tests like this:
 
-**tests**/Example.test.tsx
+//**tests**/Example.test.tsx
 
 ```bash
 import { render, screen } from '@testing-library/react';
