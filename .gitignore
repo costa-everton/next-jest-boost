@@ -1,0 +1,33 @@
+# Dependências
+node_modules/
+
+# Builds
+dist/
+lib/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# TypeScript
+*.tsbuildinfo
+
+# Ambiente (caso use)
+.env
+.env.*
+
+# Testes
+coverage/
