@@ -75,9 +75,9 @@ const nextJest = require('next/jest');
 const createJestConfig = nextJest({ dir: './' });
 
 const customJestConfig = {
-testEnvironment: 'jest-environment-jsdom',
-setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'], // or .js depending on the project
-testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
+  testEnvironment: 'jest-environment-jsdom',
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'], // or .js depending on the project
+  testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
 };
 
 module.exports = createJestConfig(customJestConfig);
@@ -90,7 +90,7 @@ import 'jest-environment-jsdom';
 import '@testing-library/jest-dom';
 babel.config.js
 module.exports = {
-presets: ['next/babel'],
+  presets: ['next/babel'],
 };
 ```
 
@@ -105,10 +105,10 @@ import { render, screen } from '@testing-library/react';
 import Home from '../pages/index';
 
 describe('Home', () => {
-it('renders the heading', () => {
-render(<Home />);
-expect(screen.getByRole('heading', { name: /welcome/i })).toBeInTheDocument();
-});
+  it('renders the heading', () => {
+    render(<Home />);
+    expect(screen.getByRole('heading', { name: /welcome/i })).toBeInTheDocument();
+  });
 });
 ```
 
