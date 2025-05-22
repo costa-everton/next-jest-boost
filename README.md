@@ -98,7 +98,7 @@ presets: ['next/babel'],
 
 You can now write your tests like this:
 
-//**tests**/Example.test.tsx
+Example.test.tsx
 
 ```bash
 import { render, screen } from '@testing-library/react';
