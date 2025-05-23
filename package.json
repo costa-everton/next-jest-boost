@@ -2,10 +2,7 @@
   "name": "next-jest-boost",
   "version": "1.0.0",
   "description": "A CLI tool to automatically setup Jest + Testing Library for Next.js projects, supporting JavaScript and TypeScript, and npm, yarn, pnpm package managers.",
-  "main": "bin/index.js",
-  "files": [
-    "lib"
-  ],
+  "main": "src/runSetup.js",
   "bin": {
     "next-jest-boost": "./bin/index.js"
   },
@@ -23,7 +20,7 @@
   "author": "Everton Costa",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^5.0.0"
+    "chalk": "^4.1.2"
   },
   "engines": {
     "node": ">=12"

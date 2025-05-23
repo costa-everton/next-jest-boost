@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const { runSetup } = require("../lib/setup");
+const runSetup = require("../src/runSetup");
 
 runSetup();
