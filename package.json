@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A CLI tool to automatically setup Jest + Testing Library for Next.js projects, supporting JavaScript and TypeScript, and npm, yarn, pnpm package managers.",
   "main": "bin/index.js",
+  "files": [
+    "lib"
+  ],
   "bin": {
     "next-jest-boost": "./bin/index.js"
   },
